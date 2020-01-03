@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/Notification"
+        android:title="Notification"
+        android:icon="@drawable/ic_notification"/>
+
+    <item android:id="@+id/MyReviews"
+        android:title="My Reviews"
+        android:icon="@drawable/ic_rate_review"/>
+
+    <item android:id="@+id/PostAReview"
+        android:title="Post A Review"
+        android:icon="@drawable/ic_postreviews"/>
+
+    <item android:id="@+id/Browse"
+        android:title="Browse"
+        android:icon="@drawable/ic_internet"/>
+
+    <item android:id="@+id/MyProfile"
+        android:title="My Profile"
+        android:icon="@drawable/ic_profile"/>
+
+
+</menu>
