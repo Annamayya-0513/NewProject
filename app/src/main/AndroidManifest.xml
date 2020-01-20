@@ -12,6 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+        <activity android:name=".ListViewData"></activity>
+        <activity android:name=".BottomNavigation" />
         <activity android:name=".GetRequestList" />
         <activity android:name=".SimpleRecyclerView" />
         <activity android:name=".Registration" />
@@ -21,7 +23,7 @@
         <activity android:name=".VolleyPostRequest" />
         <activity android:name=".PutRequest" />
         <activity android:name=".GetRequest" />
-        <activity android:name=".BottomNavigation">
+        <activity android:name=".AlertDialog">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

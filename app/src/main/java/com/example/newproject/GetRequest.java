@@ -49,7 +49,7 @@ public class GetRequest extends AppCompatActivity {
             public void onResponse(JSONObject response) {
 
                 try {
-                    //read array within overall obj {[]}
+//read array within overall obj {[]}
                     JSONArray jsonArray = response.getJSONArray("users");
 //read objects inside the array {[{},{},{}]}
                     for (int i = 0; i <= jsonArray.length(); i++) {

@@ -6,7 +6,12 @@ import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.Switch;
+
+import com.example.newproject.Fragments.BrowseFragment;
+import com.example.newproject.Fragments.MyProfileFragment;
+import com.example.newproject.Fragments.MyReviewsFragment;
+import com.example.newproject.Fragments.NotificationFragment;
+import com.example.newproject.Fragments.PostAReviewFragment;
 
 public class BottomNavigation extends AppCompatActivity {
 
@@ -27,7 +32,7 @@ public class BottomNavigation extends AppCompatActivity {
 
         bottomNavigationView =(BottomNavigationView)findViewById(R.id.BottomNavigation);
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.Fragment,new NotificationFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.Fragment,new BrowseFragment()).commit();
         return;
 
     }
@@ -40,8 +45,8 @@ public class BottomNavigation extends AppCompatActivity {
                 Fragment selectedFragment = null;
 
                 switch (menuItem.getItemId()){
-                    case R.id.Notification:
-                        selectedFragment = new NotificationFragment();
+                    case R.id.Browse:
+                        selectedFragment = new BrowseFragment();
                         break;
                     case R.id.MyReviews:
                         selectedFragment = new MyReviewsFragment();
@@ -49,8 +54,8 @@ public class BottomNavigation extends AppCompatActivity {
                     case R.id.PostAReview:
                         selectedFragment = new PostAReviewFragment();
                         break;
-                    case R.id.Browse:
-                        selectedFragment = new BrowseFragment();
+                    case R.id.Notification:
+                        selectedFragment = new NotificationFragment();
                         break;
                     case R.id.MyProfile:
                         selectedFragment = new MyProfileFragment();
