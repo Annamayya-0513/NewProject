@@ -78,7 +78,7 @@ class CustomAdapter extends BaseAdapter {
 
     }
 
-    public class ViewHolderItem {
+    public static class ViewHolderItem {
 
         TextView IdTxtView, EmailTxtView;
 

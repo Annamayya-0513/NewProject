@@ -16,7 +16,6 @@ public class ListViewData extends AppCompatActivity {
     TextView ListTxtView;
     String[] Data = {"a","b","c","d","e","a","b","c","d","e","a","b","c","d","e"};
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
